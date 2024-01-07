@@ -4,7 +4,7 @@
 }
 
 .header  {
-  border: solid green;
+  /* border: solid green; */
   font-family: monospace;
   background: papayawhip;
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .logo {
-  border: solid pink;
+  /* border: solid pink; */
   font-size: 48px;
   font-weight: 900;
   color: tomato;
@@ -30,10 +30,10 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  border: solid red;
+  /* border: solid red; */
   padding: 5px;
   display: flex;
-  
+  gap: 8px;
 }
 
 a {
@@ -43,9 +43,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-}
-
-li {
-  border: solid black;
-  display: flex;
 }
