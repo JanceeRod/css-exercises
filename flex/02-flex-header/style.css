@@ -4,10 +4,15 @@
 }
 
 .header  {
+  border: solid green;
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.left-links {
+  
 }
 
 .logo {
@@ -17,6 +22,8 @@
   color: tomato;
   background: white;
   padding: 4px 20px;
+  display: flex;
+  align-self: center;
 }
 
 ul {
