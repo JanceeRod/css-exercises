@@ -50,7 +50,8 @@ ul {
   border: solid saddlebrown;
   list-style-type: none;
   display: flex;
-  margin-left: 0px;
+  gap: 15px;
+  padding-left: 10px
 }
 
 .logo {
