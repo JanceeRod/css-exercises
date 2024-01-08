@@ -3,14 +3,38 @@ body {
 }
 
 img {
+  border: solid pink;
   width: 100px;
   height: 100px;
 }
 
 .title {
+  border: solid blanchedalmond;
   font-size: 36px;
   font-weight: 900;
 }
+
+/* ANSWER */
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.container {
+  border: solid salmon;
+  display: flex;
+}
+
+.card {
+  border: solid cyan;
+
+}
+
+
+
+
 
 /* do not edit this footer */
 .footer {
