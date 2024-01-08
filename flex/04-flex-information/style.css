@@ -3,13 +3,13 @@ body {
 }
 
 img {
-  border: solid pink;
+  /* border: solid pink; */
   width: 100px;
   height: 100px;
 }
 
 .title {
-  border: solid blanchedalmond;
+  /* border: solid blanchedalmond; */
   font-size: 36px;
   font-weight: 900;
 }
@@ -23,14 +23,19 @@ img {
 }
 
 .container {
-  border: solid salmon;
+  /* border: solid salmon; */
   display: flex;
+  gap: 52px;
 }
 
 .card {
-  border: solid cyan;
-
+  /* border: solid cyan; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
 
 
 
