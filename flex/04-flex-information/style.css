@@ -35,6 +35,7 @@ img {
   flex-direction: column;
   align-items: center;
   flex-basis: 200px;
+  gap: 5px;
 }
 
 .text {
