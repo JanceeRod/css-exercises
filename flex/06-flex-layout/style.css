@@ -25,3 +25,43 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* MY ANSWERS */
+
+.header {
+  border: solid peachpuff;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.footer {
+  border: solid peachpuff;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.left-links, .right-links {
+  border: solid salmon;
+  display: flex;
+  padding: 15px;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+color: darkslategray;
+}
+
+
