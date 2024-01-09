@@ -45,6 +45,14 @@ a {
   text-decoration: none;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
 .content {
   display: flex;
   margin-bottom: auto;
@@ -54,10 +62,11 @@ a {
 .sidebar {
   flex-basis: 300px;
   flex-shrink: 0;
+  font-size: 24px;
+  
 }
 
 .cards-container {
-  border: solid salmon;
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
