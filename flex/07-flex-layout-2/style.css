@@ -54,6 +54,19 @@ a {
   flex-shrink: 0;
 }
 
+.cards-container {
+  border: solid salmon;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-basis: 300px;
+  flex-shrink: 0;
+}
+
 .footer {
   display: flex;
   justify-content: center;
