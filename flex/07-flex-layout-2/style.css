@@ -56,7 +56,7 @@ a {
 
 .cards-container {
   border: solid salmon;
-  padding: 32px;
+  padding: 50px;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
