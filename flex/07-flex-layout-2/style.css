@@ -34,3 +34,25 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
