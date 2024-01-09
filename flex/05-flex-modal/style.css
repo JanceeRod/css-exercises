@@ -102,10 +102,8 @@ button.cancel {
   /* border: solid orange; */
   display: flex;
   align-items: center;
-  /* padding-bottom: 10px; */
 }
 
-
-.button, .text {
-  /* border: solid seagreen; */
+.button {
+  padding-top: 5px;
 }
