@@ -117,7 +117,17 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.menu li, .nav li {
+.menu ul, .nav li {
   list-style-type: none;
 }
 
+.sidebar {
+  grid-row: 2 / 4;
+  display: grid;
+  gap: 50px;
+}
+
+.side-content, .photo {
+  display: grid;
+  align-items: center;
+}
